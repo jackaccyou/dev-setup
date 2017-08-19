@@ -65,6 +65,17 @@ pip install Flask
 pip install sqlalchemy
 pip install mysql-python
 
+pip install requests
+pip install scrapy
+pip install Pillow
+pip install beautifulsoup4
+pip install opencv-python
+pip install mechanize
+pip install lxml
+pip install --upgrade autopep8
+pip install selenium
+pip install apscheduler
+
 ###############################################################################
 # Python 3 Virtual Enviroment                                                 #
 ###############################################################################
@@ -93,6 +104,15 @@ pip install sqlalchemy
 #pip install mysql-python  # Python 2 only, use mysqlclient instead
 pip install mysqlclient
 
+pip install requests
+pip install scrapy
+pip install Pillow
+pip install beautifulsoup4
+pip install opencv-python
+pip install lxml
+pip install --upgrade autopep8
+pip install selenium
+pip install apscheduler
 ###############################################################################
 # Install IPython Profile
 ###############################################################################
