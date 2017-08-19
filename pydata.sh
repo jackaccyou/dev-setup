@@ -12,107 +12,75 @@ echo "Setting up pip."
 # Install pip
 easy_install pip
 
-###############################################################################
-# Virtual Enviroments                                                         #
-###############################################################################
-
-echo "------------------------------"
-echo "Setting up virtual environments."
-
-# Install virtual environments globally
-# It fails to install virtualenv if PIP_REQUIRE_VIRTUALENV was true
-export PIP_REQUIRE_VIRTUALENV=false
-pip install virtualenv
-pip install virtualenvwrapper
-
-echo "------------------------------"
-echo "Source virtualenvwrapper from ~/.extra"
-
-EXTRA_PATH=~/.extra
-echo $EXTRA_PATH
-echo "" >> $EXTRA_PATH
-echo "" >> $EXTRA_PATH
-echo "# Source virtualenvwrapper, added by pydata.sh" >> $EXTRA_PATH
-echo "export WORKON_HOME=~/.virtualenvs" >> $EXTRA_PATH
-echo "source /usr/local/bin/virtualenvwrapper.sh" >> $EXTRA_PATH
-echo "" >> $BASH_PROFILE_PATH
-source $EXTRA_PATH
 
 ###############################################################################
-# Python 2 Virtual Enviroment                                                 #
+# Python 2                                                                    #
 ###############################################################################
 
 echo "------------------------------"
-echo "Setting up py2-data virtual environment."
+echo "Setting up py2 environment."
 
-# Create a Python2 data environment
-mkvirtualenv py2-data
-workon py2-data
 
 # Install Python data modules
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install pandas
-pip install sympy
-pip install nose
-pip install unittest2
-pip install seaborn
-pip install scikit-learn
-pip install "ipython[all]"
-pip install bokeh
-pip install Flask
-pip install sqlalchemy
-pip install mysql-python
+pip2 install numpy
+pip2 install scipy
+pip2 install matplotlib
+pip2 install pandas
+pip2 install sympy
+pip2 install nose
+pip2 install unittest2
+pip2 install seaborn
+pip2 install scikit-learn
+pip2 install "ipython[all]"
+pip2 install bokeh
+pip2 install Flask
+pip2 install sqlalchemy
+pip2 install mysql-python
 
-pip install requests
-pip install scrapy
-pip install Pillow
-pip install beautifulsoup4
-pip install opencv-python
-pip install mechanize
-pip install lxml
-pip install --upgrade autopep8
-pip install selenium
-pip install apscheduler
+pip2 install requests
+pip2 install scrapy
+pip2 install Pillow
+pip2 install beautifulsoup4
+pip2 install opencv-python
+pip2 install mechanize
+pip2 install lxml
+pip2 install --upgrade autopep8
+pip2 install selenium
+pip2 install apscheduler
 
 ###############################################################################
-# Python 3 Virtual Enviroment                                                 #
+# Python 3                                                                    #
 ###############################################################################
 
 echo "------------------------------"
-echo "Setting up py3-data virtual environment."
-
-# Create a Python3 data environment
-mkvirtualenv --python=/usr/local/bin/python3 py3-data
-workon py3-data
+echo "Setting up py3 environment."
 
 # Install Python data modules
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install pandas
-pip install sympy
-pip install nose
-pip install unittest2
-pip install seaborn
-pip install scikit-learn
-pip install "ipython[all]"
-pip install bokeh
-pip install Flask
-pip install sqlalchemy
+pip3 install numpy
+pip3 install scipy
+pip3 install matplotlib
+pip3 install pandas
+pip3 install sympy
+pip3 install nose
+pip3 install unittest2
+pip3 install seaborn
+pip3 install scikit-learn
+pip3 install "ipython[all]"
+pip3 install bokeh
+pip3 install Flask
+pip3 install sqlalchemy
 #pip install mysql-python  # Python 2 only, use mysqlclient instead
-pip install mysqlclient
+pip3 install mysqlclient
 
-pip install requests
-pip install scrapy
-pip install Pillow
-pip install beautifulsoup4
-pip install opencv-python
-pip install lxml
-pip install --upgrade autopep8
-pip install selenium
-pip install apscheduler
+pip3 install requests
+pip3 install scrapy
+pip3 install Pillow
+pip3 install beautifulsoup4
+pip3 install opencv-python
+pip3 install lxml
+pip3 install --upgrade autopep8
+pip3 install selenium
+pip3 install apscheduler
 ###############################################################################
 # Install IPython Profile
 ###############################################################################
@@ -126,5 +94,3 @@ cp -r init/profile_default/ ~/.ipython/profile_default
 
 echo "------------------------------"
 echo "Script completed."
-echo "Usage: workon py2-data for Python2"
-echo "Usage: workon py3-data for Python3"
