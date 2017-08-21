@@ -50,6 +50,9 @@ brew install wget --with-iri
 brew install python
 brew install python3
 
+# Install gcc
+brew install gcc
+
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
@@ -131,21 +134,24 @@ brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 
 # Development tool casks
-brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" virtualbox
+brew cask install sublime-text
+# Install Sublime Text settings
+cp -r init/Sublime/* ~/Library/Application\ Support/Sublime\ Text*/Packages/User 2> /dev/null
+cp init/License.sublime_license ~/Library/Application Support/Sublime Text 3/Local
+brew cask install virtualbox
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" google-drive
-brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" 1password
-brew cask install --appdir="/Applications" vlc
-#brew cask install --appdir="/Applications" gimp
-#brew cask install --appdir="/Applications" inkscape
+brew cask install google-chrome
+brew cask install firefox
+brew cask install google-backup-and-sync
+brew cask install evernote
+brew cask install 1password
+brew cask install vlc
+#brew cask install gimp
+#brew cask install inkscape
 
 #Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
+#brew cask install mactex
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package

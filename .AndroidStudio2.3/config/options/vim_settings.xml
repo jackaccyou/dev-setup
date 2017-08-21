@@ -1,0 +1,287 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1501248921605">
+        <mark key="y" line="0" column="7" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Messenger/app/src/main/java/com/hfad/messenger/ReceiveMessageActivity.java" timestamp="1500868182329">
+        <mark key="[" line="15" column="54" />
+        <mark key="]" line="16" column="7" />
+        <mark key="^" line="16" column="7" />
+        <mark key="." line="16" column="7" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/res/layout/bottom_picture_fragment.xml" timestamp="1500694858995">
+        <mark key="[" line="4" column="42" />
+        <mark key="]" line="25" column="27" />
+        <mark key="." line="25" column="27" />
+        <mark key="^" line="25" column="27" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/res/layout/activity_main.xml" timestamp="1500637755698">
+        <mark key="[" line="8" column="2" />
+        <mark key="]" line="8" column="2" />
+        <mark key="." line="8" column="2" />
+        <mark key="^" line="1" column="5" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/CreateanInterfacewithJava/app/src/main/java/com/example/vincent/createaninterfacewithjava/MainActivity.java" timestamp="1500547953795">
+        <mark key="[" line="56" column="104" />
+        <mark key="]" line="58" column="27" />
+        <mark key="^" line="58" column="27" />
+        <mark key="." line="58" column="27" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/res/layout/top_section_fragment.xml" timestamp="1500695438006">
+        <mark key="'" line="13" column="3" />
+        <mark key="[" line="27" column="35" />
+        <mark key="]" line="27" column="49" />
+        <mark key="^" line="27" column="49" />
+        <mark key="." line="27" column="49" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Stopwatch/app/src/main/res/layout/activity_stopwatch.xml" timestamp="1502280070120">
+        <mark key="[" line="8" column="26" />
+        <mark key="]" line="8" column="58" />
+        <mark key="^" line="8" column="58" />
+        <mark key="." line="8" column="58" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Gestures/app/src/main/res/layout/activity_main.xml" timestamp="1500625789473">
+        <mark key="[" line="9" column="25" />
+        <mark key="]" line="9" column="34" />
+        <mark key="." line="9" column="34" />
+        <mark key="^" line="9" column="34" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Stopwatch/app/src/main/java/com/hfad/stopwatch/StopwatchActivity.java" timestamp="1501406864260">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="29" column="0" />
+        <mark key="." line="29" column="0" />
+        <mark key="^" line="21" column="11" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_create_message.xml" timestamp="1500865543887">
+        <mark key="'" line="25" column="31" />
+        <mark key="[" line="20" column="26" />
+        <mark key="]" line="20" column="40" />
+        <mark key="^" line="20" column="40" />
+        <mark key="." line="20" column="40" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/layout_playground/app/src/main/res/layout/activity_main.xml" timestamp="1502280507397">
+        <mark key="'" line="12" column="5" />
+        <mark key="[" line="8" column="59" />
+        <mark key="]" line="9" column="58" />
+        <mark key="." line="9" column="58" />
+        <mark key="^" line="9" column="58" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/values/strings.xml" timestamp="1500562912227">
+        <mark key="[" line="3" column="31" />
+        <mark key="]" line="3" column="31" />
+        <mark key="." line="3" column="31" />
+        <mark key="^" line="2" column="37" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Gestures/app/src/main/java/com/example/vincent/gestures/MainActivity.java" timestamp="1500636182099">
+        <mark key="'" line="0" column="8" />
+        <mark key="[" line="26" column="48" />
+        <mark key="]" line="26" column="46" />
+        <mark key="." line="26" column="46" />
+        <mark key="^" line="26" column="46" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/java/com/example/vincent/eventhandling/MainActivity.java" timestamp="1500614958673">
+        <mark key="'" line="33" column="4" />
+        <mark key="[" line="33" column="31" />
+        <mark key="]" line="33" column="34" />
+        <mark key="^" line="33" column="34" />
+        <mark key="." line="33" column="34" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Messenger/app/src/main/res/values/strings.xml" timestamp="1501078839174">
+        <mark key="[" line="2" column="33" />
+        <mark key="]" line="2" column="33" />
+        <mark key="." line="2" column="33" />
+        <mark key="^" line="2" column="17" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Messenger/app/src/main/java/com/hfad/messenger/CreateMessageActivity.java" timestamp="1501078850246">
+        <mark key="[" line="24" column="65" />
+        <mark key="]" line="24" column="86" />
+        <mark key="^" line="24" column="86" />
+        <mark key="." line="24" column="86" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_receive_message.xml" timestamp="1500822941569">
+        <mark key="[" line="12" column="9" />
+        <mark key="]" line="13" column="36" />
+        <mark key="." line="13" column="36" />
+        <mark key="^" line="13" column="36" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" timestamp="1500563135935">
+        <mark key="'" line="23" column="8" />
+        <mark key="y" line="19" column="32" />
+        <mark key="[" line="19" column="25" />
+        <mark key="]" line="19" column="32" />
+        <mark key="." line="19" column="32" />
+        <mark key="^" line="19" column="32" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/java/com/example/vincent/fragments/TopSessionFragment.java" timestamp="1500697999927">
+        <mark key="'" line="55" column="0" />
+        <mark key="[" line="53" column="58" />
+        <mark key="]" line="53" column="84" />
+        <mark key="." line="53" column="84" />
+        <mark key="^" line="53" column="84" />
+      </file>
+      <file name="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/java/com/example/vincent/fragments/BottomPictureFragment.java" timestamp="1500647329479">
+        <mark key="'" line="14" column="4" />
+        <mark key="[" line="12" column="46" />
+        <mark key="]" line="12" column="68" />
+        <mark key="." line="12" column="68" />
+        <mark key="^" line="12" column="68" />
+      </file>
+      <file name="/fragment.java" timestamp="1501406722767">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="2" column="1" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/values/strings.xml" />
+      <jump line="26" column="0" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" />
+      <jump line="6" column="13" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" />
+      <jump line="15" column="39" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" />
+      <jump line="16" column="16" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" />
+      <jump line="22" column="37" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" />
+      <jump line="25" column="40" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" />
+      <jump line="24" column="8" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/res/layout/activity_main.xml" />
+      <jump line="33" column="4" filename="$USER_HOME$/AndroidStudioProjects/EventHandling/app/src/main/java/com/example/vincent/eventhandling/MainActivity.java" />
+      <jump line="9" column="0" filename="$USER_HOME$/AndroidStudioProjects/Gestures/app/src/main/java/com/example/vincent/gestures/MainActivity.java" />
+      <jump line="76" column="1" filename="$USER_HOME$/AndroidStudioProjects/Gestures/app/src/main/java/com/example/vincent/gestures/MainActivity.java" />
+      <jump line="0" column="8" filename="$USER_HOME$/AndroidStudioProjects/Gestures/app/src/main/java/com/example/vincent/gestures/MainActivity.java" />
+      <jump line="13" column="3" filename="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/res/layout/top_section_fragment.xml" />
+      <jump line="14" column="4" filename="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/java/com/example/vincent/fragments/BottomPictureFragment.java" />
+      <jump line="13" column="4" filename="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/java/com/example/vincent/fragments/TopSessionFragment.java" />
+      <jump line="20" column="8" filename="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/java/com/example/vincent/fragments/TopSessionFragment.java" />
+      <jump line="25" column="0" filename="$USER_HOME$/AndroidStudioProjects/Fragments/app/src/main/java/com/example/vincent/fragments/TopSessionFragment.java" />
+      <jump line="25" column="31" filename="$USER_HOME$/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_create_message.xml" />
+      <jump line="29" column="31" filename="$USER_HOME$/AndroidStudioProjects/Stopwatch/app/src/main/java/com/hfad/stopwatch/StopwatchActivity.java" />
+      <jump line="8" column="5" filename="$USER_HOME$/AndroidStudioProjects/layout_playground/app/src/main/res/layout/activity_main.xml" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">PFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOnRleHQ9IkhlbGxvIFdvcmxkISIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRCb3R0b21fdG9Cb3R0b21PZj0icGFyZW50IgogICAgICAgIGFwcDpsYXlvdXRfY29uc3RyYWludExlZnRfdG9MZWZ0T2Y9InBhcmVudCIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRSaWdodF90b1JpZ2h0T2Y9InBhcmVudCIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRUb3BfdG9Ub3BPZj0icGFyZW50IiAvPgo=</text>
+      </register>
+      <register name="i" type="4">
+        <text>onSingleTapConfirmed&quot;</text>
+      </register>
+      <register name="-" type="4">
+        <text>.support.constraint.ConstraintLayout</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxUZXh0Vmlld1w+</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIDxCdXR0b24KICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2J1dHRvbl9zdG9wQnV0dG9uIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfYmVsb3c9IkAraWQvYnV0dG9uX3N0YXJ0QnV0dG9uIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2NlbnRlckhvcml6b250YWw9InRydWUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luVG9wPSIxMGRwIgogICAgICAgIGFuZHJvaWQ6b25DbGljaz0ib25DbGlja1N0b3AiCiAgICAgICAgYW5kcm9pZDp0ZXh0PSJAc3RyaW5nL3N0b3AiLz4K</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">PFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOnRleHQ9IkhlbGxvIFdvcmxkISIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRCb3R0b21fdG9Cb3R0b21PZj0icGFyZW50IgogICAgICAgIGFwcDpsYXlvdXRfY29uc3RyYWludExlZnRfdG9MZWZ0T2Y9InBhcmVudCIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRSaWdodF90b1JpZ2h0T2Y9InBhcmVudCIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRUb3BfdG9Ub3BPZj0icGFyZW50IiAvPgo=</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">PFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOnRleHQ9IkhlbGxvIFdvcmxkISIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRCb3R0b21fdG9Cb3R0b21PZj0icGFyZW50IgogICAgICAgIGFwcDpsYXlvdXRfY29uc3RyYWludExlZnRfdG9MZWZ0T2Y9InBhcmVudCIKICAgICAgICBhcHA6bGF5b3V0X2NvbnN0cmFpbnRSaWdodF90b1JpZ2h0T2Y9InBhcmVudCIKICAgIA==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAod2FzUnVubmluZykK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBydW5uaW5nID0gd2FzUnVubmluZzsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAod2FzUnVubmluZykK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBydW5uaW5nID0gd2FzUnVubmluZzsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICB3YXNSdW5uaW5nID0gcnVubmluZzsK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBzdXBlci5vblNhdmVJbnN0YW5jZVN0YXRlKCk7Cg==</text>
+      </register>
+      <register name="9" type="4">
+        <text encoding="base64">ICAgICAgICBpbnQgaG91cnMgPSBzZWNvbmRzIC8gMzYwMDsKICAgICAgICBpbnQgbWludXRlcyA9IChzZWNvbmRzICUgMzYwMCkgLyA2MDsKICAgICAgICBpbnQgc2VjcyA9IHNlY29uZHMgJSA2MDsKCiAgICAgICAgU3RyaW5nIHRpbWUgPSBTdHJpbmcuZm9ybWF0KCIlZDolMDJkOiUwMmQiLCBob3VycywgbWludXRlcywgc2Vjcyk7CiAgICAgICAgdGV4dFZpZXdfdGltZVZpZXcuc2V0VGV4dCh0aW1lKTsKICAgICAgICBpZiAocnVubmluZykKICAgICAgICAgICAgc2Vjb25kcysrOw==</text>
+      </register>
+      <register name=":" type="4">
+        <text>nohlsearch</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxUZXh0Vmlld1w+</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxUZXh0Vmlld1w+</last-pattern>
+      <last-replace>button_send</last-replace>
+      <last-substitute>btn_send</last-substitute>
+      <last-dir>-1</last-dir>
+      <show-last>true</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>Butt</entry>
+        <entry>testView2</entry>
+        <entry>test</entry>
+        <entry>text</entry>
+        <entry>textView2</entry>
+        <entry>myTestView</entry>
+        <entry>false</entry>
+        <entry>topE</entry>
+        <entry>top</entry>
+        <entry>topTextInput</entry>
+        <entry>bottomTextInput</entry>
+        <entry>topEditText</entry>
+        <entry>btn_send</entry>
+        <entry>true</entry>
+        <entry encoding="base64">XDxUZXh0Vmlld1w+</entry>
+      </history-search>
+      <history-cmd>
+        <entry>s/myTestView/myTextView/g</entry>
+        <entry>%s/myTestView/myTextView/g</entry>
+        <entry>+11</entry>
+        <entry>-18</entry>
+        <entry>-9</entry>
+        <entry>-4,. y</entry>
+        <entry>=7,+14 d</entry>
+        <entry>+5,+12 d</entry>
+        <entry>%s/false/true/g</entry>
+        <entry>-12 y</entry>
+        <entry>-10 y</entry>
+        <entry>s/topTextInput/bottomTextInput/g</entry>
+        <entry>s/bottomTextInput/topEditText/g</entry>
+        <entry>s/topEditText/bottomEditText/g</entry>
+        <entry>%s/btn_send/button_send/g</entry>
+        <entry>-2,-3 d</entry>
+        <entry>=3d</entry>
+        <entry>+3 d</entry>
+        <entry>-8,. y</entry>
+        <entry>nohlsearch</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

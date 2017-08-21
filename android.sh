@@ -26,7 +26,8 @@ brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" intellij-idea
 brew cask install --appdir="~/Applications" android-studio
 
-brew install android-sdk
+brew cask install android-sdk
+export ANDROID_HOME=/usr/local/share/android-sdk
 
 # Remove outdated versions from the cellar.
 brew cleanup
