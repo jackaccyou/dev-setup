@@ -89,7 +89,7 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-brew install homebrew/x11/xpdf
+brew install xpdf
 brew install xz
 
 # Install other useful binaries.
@@ -146,7 +146,7 @@ brew cask install firefox
 brew cask install google-backup-and-sync
 brew cask install evernote
 brew cask install 1password
-brew cask install vlc
+brew cask install iina
 #brew cask install gimp
 #brew cask install inkscape
 
