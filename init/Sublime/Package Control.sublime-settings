@@ -21,7 +21,9 @@
 		"SublimeREPL",
 		"Terminal",
 		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
 		"Tomorrow Color Schemes",
-		"VintageLines"
+		"VintageLines",
+		"YcmdCompletion"
 	]
 }

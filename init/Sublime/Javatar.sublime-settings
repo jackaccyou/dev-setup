@@ -7,25 +7,17 @@
 			"update": "111",
 			"version": "1.8.0"
 		},
-		"JDK1.8.0u121":
+		"JDK1.8.0u144":
 		{
-			"path": "C:\\Program Files\\Java\\jdk1.8.0_121\\bin",
-			"update": "121",
+			"path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/bin",
+			"update": "144",
 			"version": "1.8.0"
 		},
-		"use": "JDK1.8.0u121"
+		"use": ""
 	},
 	"message_id": 20,
 	"project_data":
 	{
-		"2":
-		{
-			"folders":
-			[
-				{
-					"path": "E:\\Google 雲端硬碟\\Computer Science\\Year 2\\COMP2017 Operating System\\lab"
-				}
-			]
-		}
+		"2": null
 	}
 }
