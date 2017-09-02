@@ -138,7 +138,7 @@ brew cask install java
 # Development tool casks
 brew cask install sublime-text
 # Install Sublime Text settings
-cp -r init/Sublime/* ~/Library/Application\ Support/Sublime\ Text*/Packages/User 2> /dev/null
+ln -s init/Sublime ~/Library/Application\ Support/Sublime\ Text*/Packages/User
 cp init/License.sublime_license ~/Library/Application Support/Sublime Text 3/Local
 brew cask install virtualbox
 
