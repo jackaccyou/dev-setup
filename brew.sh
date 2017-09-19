@@ -148,6 +148,7 @@ brew cask install firefox
 brew cask install google-backup-and-sync
 brew cask install evernote
 brew cask install iina
+brew cask install insomniax
 #brew cask install gimp
 #brew cask install inkscape
 
