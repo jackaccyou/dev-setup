@@ -13,7 +13,7 @@
 			"update": "144",
 			"version": "1.8.0"
 		},
-		"use": ""
+		"use": "JDK1.8.0u144"
 	},
 	"message_id": 20,
 	"project_data":
