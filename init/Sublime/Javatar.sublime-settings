@@ -1,22 +1,27 @@
 {
 	"jdk_version":
 	{
-		"JDK1.8.0u111":
-		{
-			"path": "C:\\Program Files\\Java\\jdk1.8.0_111\\bin",
-			"update": "111",
-			"version": "1.8.0"
-		},
 		"JDK1.8.0u144":
 		{
 			"path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/bin",
 			"update": "144",
 			"version": "1.8.0"
 		},
-		"use": "JDK1.8.0u144"
+		"JDK9.0.1":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin",
+			"version": "9.0.1"
+		},
+		"JDK9.0.4":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin",
+			"version": "9.0.4"
+		},
+		"use": ""
 	},
 	"message_id": 20,
 	"project_data":
 	{
+		"6": null
 	}
 }

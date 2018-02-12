@@ -141,6 +141,8 @@ brew cask install sublime-text
 ln -s init/Sublime ~/Library/Application\ Support/Sublime\ Text*/Packages/User
 cp init/License.sublime_license ~/Library/Application Support/Sublime Text 3/Local
 brew cask install virtualbox
+brew install node
+npm install -g eslint
 
 # Misc casks
 brew cask install google-chrome

@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -27,6 +27,8 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"Anaconda",
+		"YcmdCompletion"
 	],
 	"line_padding_bottom": 5,
 	"match_brackets": true,
