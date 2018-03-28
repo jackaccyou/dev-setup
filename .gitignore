@@ -25,3 +25,6 @@ Thumbs.db
 
 # Repo scratch directory
 scratch/
+
+.AndroidStudio2.3/system/*
+
