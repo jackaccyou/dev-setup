@@ -1,12 +1,12 @@
 
-        " Vundle
-        filetype off                  " required
+    " Vundle
+     filetype off                  " required
 
-	" set the runtime path to include Vundle and initialize
-	set rtp+=~/.vim/bundle/Vundle.vim
-	call vundle#begin()
-	" alternatively, pass a path where Vundle should install plugins
-	" call vundle#begin('~/some/path/here')
+    " set the runtime path to include Vundle and initialize
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
+    " alternatively, pass a path where Vundle should install plugins
+    " call vundle#begin('~/some/path/here')
 
           " let Vundle manage Vundle, required
           Plugin 'VundleVim/Vundle.vim'
@@ -25,6 +25,24 @@
               let g:jedi#completions_enabled = 1
 
           Plugin 'jiangmiao/auto-pairs'
+          Plugin 'w0rp/ale'
+                let g:ale_linters = {
+                \   'javascript': ['eslint'],
+                \   'cpp': ['clangtidy']
+                \}
+
+                let g:ale_fixers = {
+                \   'javascript': ['eslint'],
+                \   'cpp': ['clang-format']
+                \}
+
+                let g:ale_fix_on_save = 1
+                let g:airline#extensions#ale#enabled = 1
+                let g:ale_echo_msg_error_str = 'E'
+                let g:ale_echo_msg_warning_str = 'W'
+                let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+
+
           "Plugin 'vim-syntastic/syntastic'
               "set statusline+=%#warningmsg#
               "set statusline+=%{SyntasticStatuslineFlag()}
@@ -36,7 +54,11 @@
               "let g:syntastic_check_on_wq = 0
 
           Plugin 'Chiel92/vim-autoformat'
-                  map <C-F> :Autoformat<CR>
+                  nnoremap Ï :Autoformat<CR>
+                  let G:formmatters_cpp = ['clang-format']
+                  let g:formatters_javascript = ['eslint']
+                  let g:formatters_python = ['yapf']
+                  let g:formatter_yapf_style = 'google'
 
           Plugin 'Valloric/YouCompleteMe'
                   set encoding=utf-8
@@ -94,7 +116,7 @@
                 set mouse=a                 " Automatically enable mouse usage
                 set mousehide               " Hide the mouse cursor while typing
                 set backspace=indent,eol,start
-                
+
                 fu! SaveSess()
                   execute 'mksession! ~/.vim/.session.vim'
                 endfunction
