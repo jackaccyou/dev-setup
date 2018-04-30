@@ -55,7 +55,10 @@
 
           Plugin 'Chiel92/vim-autoformat'
                   nnoremap Ï :Autoformat<CR>
-                  let G:formmatters_cpp = ['clang-format']
+                  let g:formmatters_cpp = ['clang-format']
+                  "let g:formatdef_eslint = '"eslint-formatter"'
+                  let g:formatdef_eslint = '"SRC=eslint-temp-${RANDOM}.js; cat - >$SRC; eslint --fix $SRC >/dev/null 2>&1; cat $SRC | perl -pe \"chomp if eof\"; rm -f $SRC"'
+                  let g:formatdef_htmlbeautify = '"html-beautify -s 2 -U [] -"'
                   let g:formatters_javascript = ['eslint']
                   let g:formatters_python = ['yapf']
                   let g:formatter_yapf_style = 'google'
@@ -63,6 +66,13 @@
           Plugin 'Valloric/YouCompleteMe'
                   set encoding=utf-8
                   let g:ycm_global_ycm_extra_conf = expand("~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py")
+                  let g:ycm_autoclose_preview_window_after_insertion = 1
+                  let g:ycm_autoclose_preview_window_after_completion = 0
+                  if !exists('g:ycm_semantic_triggers')
+                    let g:ycm_semantic_triggers = {}
+                  endif
+                  au VimEnter * let g:ycm_semantic_triggers.tex = g:vimtex#re#youcompleteme
+
 
           Plugin 'tpope/vim-surround'
 
@@ -75,6 +85,8 @@
 
 
           Plugin 'ervandew/supertab'
+                    let g:SuperTabClosePreviewOnPopupClose = 0
+
           Plugin 'SirVer/ultisnips'
           Plugin 'honza/vim-snippets'
                     " make YCM compatible with UltiSnips (using supertab)
@@ -89,8 +101,49 @@
                     let g:UltiSnipsEditSplit='vertical'
 
           Plugin 'kien/ctrlp.vim'
+          Plugin 'scrooloose/nerdcommenter'
+          " Add spaces after comment delimiters by default
+          let g:NERDSpaceDelims = 1
+          " Enable trimming of trailing whitespace when uncommenting
+          let g:NERDTrimTrailingWhitespace = 1
+
           Plugin 'scrooloose/nerdtree'
           map <leader>t :NERDTreeToggle<CR>
+          map <leader>w <C-w>w
+
+          Plugin 'ternjs/tern_for_vim'
+          let g:tern#command = [ '${pkgs.nodePackages.tern}/bin/tern' ]
+          Plugin 'pangloss/vim-javascript'
+
+          Plugin 'alvan/vim-closetag'
+          " filenames like *.xml, *.html, *.xhtml, ...
+          " Then after you press > in these files, this plugin will try to close the current tag.
+          "
+          let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.ejs'
+
+          " filenames like *.xml, *.xhtml, ...
+          " This will make the list of non closing tags self closing in the specified files.
+          "
+          let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
+
+          " integer value [0|1]
+          " This will make the list of non closing tags case sensitive (e.g. `<Link>` will be closed while `<link>` won't.)
+          "
+          let g:closetag_emptyTags_caseSensitive = 1
+
+          " Shortcut for closing tags, default is '>'
+          "
+          let g:closetag_shortcut = '>'
+
+          " Add > at current position without closing the current tag, default is ''
+          "
+          let g:closetag_close_shortcut = '<leader>>'
+
+          Plugin 'xuhdev/vim-latex-live-preview'
+          let g:livepreview_previewer = 'open -a Skim'
+          Plugin 'lervag/vimtex'
+
+          Plugin 'gregsexton/MatchTag'
 
           " All of your Plugins must be added before the following line
           call vundle#end()            " required
@@ -186,6 +239,7 @@
 
                     "nerdtree
                       map <leader>t :NERDTreeToggle<CR>
+                      nnoremap <leader>w <C-w>w
 
                     " jk is escape
                     inoremap jk <esc>
@@ -330,11 +384,14 @@
 augroup configgroup
     autocmd!
     autocmd VimEnter * highlight clear SignColumn
+    au BufNewFile,BufRead *.ejs set filetype=html
     autocmd BufWritePre *.php,*.py,*.js,*.txt,*.hs,*.java,*.md :%s/\s\+$//e
 "   autocmd FileType java setlocal noexpandtab
 "   autocmd FileType java setlocal list
 "   autocmd FileType java setlocal listchars=tab:+\ ,eol:-
 "   autocmd FileType java setlocal formatprg=par\ -w80\ -T4
+    autocmd FileType tex setl updatetime=1
+    autocmd FileType javascript setlocal tabstop=2
     autocmd FileType php setlocal expandtab
     autocmd FileType php setlocal list
     autocmd FileType php setlocal listchars=tab:+\ ,eol:-
