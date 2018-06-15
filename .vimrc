@@ -28,12 +28,13 @@
           Plugin 'w0rp/ale'
                 let g:ale_linters = {
                 \   'javascript': ['eslint'],
-                \   'cpp': ['clangtidy']
+                \   'cpp': ['clangtidy'],
                 \}
 
                 let g:ale_fixers = {
                 \   'javascript': ['eslint'],
-                \   'cpp': ['clang-format']
+                \   'cpp': ['clang-format'],
+                \   'python': ['yapf']
                 \}
 
                 let g:ale_fix_on_save = 1
@@ -142,6 +143,8 @@
           Plugin 'lervag/vimtex'
 
           Plugin 'gregsexton/MatchTag'
+          Plugin 'morhetz/gruvbox'
+          Plugin 'easymotion/vim-easymotion'
 
           " All of your Plugins must be added before the following line
           call vundle#end()            " required
@@ -200,7 +203,7 @@
                     if has("gui_gtk2")
                       set guifont=Inconsolata\ 12
                     elseif has("gui_macvim")
-                      set guifont=Menlo\ Regular:h14
+                        set guifont=Monaco:h12
                     elseif has("gui_win32")
                       set guifont=Consolas:h13:cANSI
                     endif
@@ -220,7 +223,8 @@
                           let g:solarized_termtrans=1
                           let g:solarized_contrast="normal"
                           let g:solarized_visibility="normal"
-                   colorscheme solarized
+                   "colorscheme solarized
+                   colorscheme gruvbox
                   endif
               " }
 
@@ -239,6 +243,13 @@
                     "nerdtree
                       map <leader>t :NERDTreeToggle<CR>
                       map <leader>w <C-w>w
+
+                    "ALE
+                    nmap <silent> <leader>ej :ALENext<CR>
+                    nmap <silent> <leader>ek :ALEPrevious<CR>
+
+                    "EasyMotion
+                    map  <Leader>f <Plug>(easymotion-bd-f)
 
                     " jk is escape
                     inoremap jk <esc>
@@ -341,7 +352,7 @@
               """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
                 " {
-                    source $VIMRUNTIME/vimrc_example.vim
+                    "source $VIMRUNTIME/vimrc_example.vim
                     source $VIMRUNTIME/mswin.vim
                     behave mswin
 
@@ -391,6 +402,7 @@ augroup configgroup
 "   autocmd FileType java setlocal formatprg=par\ -w80\ -T4
     autocmd FileType tex setl updatetime=1
     autocmd FileType javascript setlocal tabstop=2
+    autocmd FileType javascript setlocal shiftwidth=2
     autocmd FileType php setlocal expandtab
     autocmd FileType php setlocal list
     autocmd FileType php setlocal listchars=tab:+\ ,eol:-
@@ -407,6 +419,5 @@ augroup configgroup
     autocmd BufEnter *.sh setlocal shiftwidth=2
     autocmd BufEnter *.sh setlocal softtabstop=2
 augroup END
-
 
 
