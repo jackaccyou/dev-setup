@@ -168,3 +168,7 @@ brew cleanup
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer --js-completer
+
+# Link vim configs to nvim
+ln -sf ~/.vim ~/.config/nvim
+ln -sf ~/.vimrc ~/.vim/init.vim
